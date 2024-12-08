@@ -62,6 +62,26 @@ header.navbar {
     margin-bottom: 30px;
 }
 
+.text-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.text-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.text-section .text-editor {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
 .gallery {
     padding: 50px 20px;
     text-align: center;
@@ -85,24 +105,51 @@ header.navbar {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
-    text-align: center;
+    cursor: pointer;
     overflow: hidden;
-}
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
     transition: transform 0.3s;
 }
 
-.gallery-item img:hover {
-    transform: scale(1.1);
+.gallery-item:hover {
+    transform: scale(1.05);
 }
 
-.gallery-item p {
-    font-size: 1.2rem;
+.gallery-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-text {
     padding: 20px;
+    text-align: center;
+}
+
+.gallery-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.gallery-text p {
+    font-size: 1rem;
     color: #555;
+}
+
+.event-detail {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.event-detail h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.event-detail img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .about {
